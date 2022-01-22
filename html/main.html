@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <style>
+            form{
+                max-width: 800px;
+                max-height: 600px;
+                display: grid;
+                justify-items: center;
+            }
+            body{
+                margin: 0 auto;
+                max-width: 800px;
+                max-height: 600px;
+                overflow-x: hidden;
+            }
+            img{
+                width: 800px;
+                height: 400px;
+            }
+            div{
+                background-color: gray;
+                box-shadow: 2px 2px 2px black;
+                width: 100vmin;
+                height: 40vmin;
+            }
+        </style>
+    </head>
+    <body>
+        <form action="search" method="get">
+            <img src="https://images.pexels.com/photos/6385264/pexels-photo-6385264.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="">
+            <fieldset>
+                <label for="city">City Name: </label>
+                <input type="text" id="city" name="city">
+                <input type="submit" value="Search" />
+            </fieldset>
+        </form>
+    </body>
+</html>
